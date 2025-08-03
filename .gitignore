@@ -1,0 +1,40 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# Next.js build output
+/.next
+/out
+
+# production
+/build
+
+package-lock.json
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# environment variables
+.env
+.env.*
+
+
+# next.js cache
+.next/cache
+
+# macOS system files
+.DS_Store
+
+# IDE files (optional, add any you like)
+.vscode/
+.idea/
+
+# npm/yarn lockfile (usually you want to commit these, but you can ignore if needed)
+# package-lock.json
+# yarn.lock
+
+# Optional: coverage reports
+coverage/
